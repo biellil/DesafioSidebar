@@ -4,7 +4,7 @@ width: 78px;
 height: 768px;
 left: 0px;
 top: 0px;
-transition: 1s;
+transition: 0.5s;
 background: #18C29C;
   }
   .transition.active {
@@ -15,6 +15,14 @@ background: #18C29C;
     top: 0px;
   }
 
+  #menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #18C29C;
+    border: none;
+    margin-right: 20px;
+  }
 
   #search-icon {
     padding: 10px;
@@ -24,23 +32,28 @@ background: #18C29C;
     margin-top: 50px;
   }
   
-  #menu-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #18C29C;
-    border: none;
-    margin-right: 20px;
-  }
-  
-  
+ 
   
   
 #git-icon{
-  border-radius: 12px;
- margin-right: 1px;
- margin-top: 20px;
- padding: 10px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 27px;
+  top: 147px;
+  
+  
 }
   
+#pet-icon{
+  position: absolute;
+width: 24px;
+height: 24px;
+left: 27px;
+top: 205px;
+
+}
+
+
+
   
