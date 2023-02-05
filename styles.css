@@ -1,42 +1,38 @@
 .transition {
-    width: 78px;
-    height: 768px;
-    background-color: #18C29C;
-    transition: 1s;
-    margin: 0;
-    position: relative;
+  position: absolute;
+width: 78px;
+height: 768px;
+left: 0px;
+top: 0px;
+transition: 1s;
+background: #18C29C;
   }
   .transition.active {
+    position: absolute;
     width: 250px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    position: relative;
+    height: 768px;
+    left: 0px;
+    top: 0px;
   }
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-  } 
+
 
   #search-icon {
     padding: 10px;
     background: #DCE4E3;
- border-radius: 12px;
- margin-right: 1px;
- margin-top: 20px;
+    border-radius: 12px;
+    margin-right: 20px;
+    margin-top: 50px;
   }
-
-
-#menu-icon {
+  
+  #menu-icon {
     position: absolute;
     top: 10px;
     right: 10px;
     background-color: #18C29C;
     border: none;
-   
+    margin-right: 20px;
   }
+  
   
   
   
