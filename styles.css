@@ -23,6 +23,27 @@ background: #18C29C;
   .tela.active {
     margin-left: 250px;
   }
+
+  .outBar{
+    position: absolute;
+    width: 79px;
+    height: 60px;
+    left: 0px;
+    top: 708px;
+    background: #8ED7C6;
+
+
+  }
+  .outBar.active{
+  position: absolute;
+ width: 251px;
+ height: 60px;
+ left: -1px;
+ top: 708px;
+ background: #8ED7C6;
+ transition: 1s;
+  }
+
   #menu-icon {
     position: absolute;
     top: 10px;
@@ -92,15 +113,7 @@ top: 321px;
   top: 379px; 
 
 }  
-#Rectangle {
-position: absolute;
-width: 79px;
-height: 60px;
-left: 0px;
-top: 708px;
-background: rgba(220, 228, 227, 0.6);
 
-}
 #log-out{
 position: absolute;
 width: 24px;
