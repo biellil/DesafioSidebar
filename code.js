@@ -5,10 +5,6 @@ const dashboard = document.querySelector(".tela");
 button.addEventListener('click', () => {
   
   sidebar.classList.toggle('active');
-  tela.classList.toggle("active");
+  dashboard.classList.toggle('active');
+
 });
-
-
-
-
-

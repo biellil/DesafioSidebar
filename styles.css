@@ -91,9 +91,23 @@ top: 321px;
   left: 27px;
   top: 379px; 
 
+}  
+#Rectangle {
+position: absolute;
+width: 79px;
+height: 60px;
+left: 0px;
+top: 708px;
+background: rgba(220, 228, 227, 0.6);
+
 }
+#log-out{
+position: absolute;
+width: 24px;
+height: 24px;
+left: 51px;
+top: 726px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
 
 
-
-
-  
+}
