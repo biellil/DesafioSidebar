@@ -4,7 +4,7 @@ width: 78px;
 height: 768px;
 left: 0px;
 top: 0px;
-transition: 0.5s;
+transition: 1s;
 background: #18C29C;
   }
   .transition.active {
@@ -13,8 +13,16 @@ background: #18C29C;
     height: 768px;
     left: 0px;
     top: 0px;
-  }
 
+  }
+  .tela {
+    margin-left: 78px;
+    transition: 1s;
+  }
+  
+  .tela.active {
+    margin-left: 250px;
+  }
   #menu-icon {
     position: absolute;
     top: 10px;
@@ -22,6 +30,8 @@ background: #18C29C;
     background-color: #18C29C;
     border: none;
     margin-right: 20px;
+    
+    
   }
 
   #search-icon {
@@ -30,7 +40,9 @@ background: #18C29C;
     border-radius: 12px;
     margin-right: 20px;
     margin-top: 50px;
+    left: 27px;
   }
+
   
  
   
@@ -42,7 +54,6 @@ background: #18C29C;
   left: 27px;
   top: 147px;
   
-  
 }
   
 #pet-icon{
@@ -53,6 +64,35 @@ left: 27px;
 top: 205px;
 
 }
+#user-icon{
+
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 27px;
+top: 263px;
+}
+
+#vet-icon{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 27px;
+top: 321px;
+
+}
+
+#settings-icon{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 27px;
+  top: 379px; 
+
+}
+
 
 
 
