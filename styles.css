@@ -4,7 +4,8 @@ width: 78px;
 height: 768px;
 left: 0px;
 top: 0px;
-transition: 1s;
+transition: 0.2s;
+
 background: #18C29C;
   }
   .transition.active {
@@ -13,15 +14,18 @@ background: #18C29C;
     height: 768px;
     left: 0px;
     top: 0px;
+    transition: 0.2s;
+ 
 
   }
   .tela {
     margin-left: 78px;
-    transition: 1s;
+    transition:0.5s;
   }
   
   .tela.active {
     margin-left: 250px;
+    transition: 0.5s;
   }
 
   .outBar{
@@ -31,7 +35,8 @@ background: #18C29C;
     left: 0px;
     top: 708px;
     background: #8ED7C6;
-    transition: 1s;
+    transition:0.2s;
+   
 
 
   }
@@ -42,29 +47,79 @@ background: #18C29C;
  left: -1px;
  top: 708px;
  background: #8ED7C6;
- transition: 1s;
+ transition:0.2s;
+ 
+ 
  
   }
-
-  #menu-icon {
-    position: absolute;
+  .menua.active{
+   
     top: 10px;
     right: 10px;
     background-color: #18C29C;
     border: none;
     margin-right: 20px;
+    transition:0.2s;
+
+  }
+
+
+
+
+  #menu-icon {
+    position: absolute;
+    right: 10px;
+    background-color: #18C29C;
+    border: none;
+    margin-right: 20px;
+    left: 27px;
+     top: -35px;
+     border-radius: 12px;
+    margin-right: 20px;
+    margin-top: 50px;
+
     
     
   }
 
-  #search-icon {
-    padding: 10px;
+  .search-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 14px;
+    top: 76px;
     background: #8ED7C6;
     border-radius: 12px;
-    margin-right: 20px;
-    margin-top: 50px;
-   
-    left: 27px;
+    transition:0.2s;
+    
+  }
+  .search-icon.active{position: absolute;
+    width: 222px;
+    height: 50.92px;
+    left: 14px;
+    top: 76px;
+    background: #8ED7C6;
+    border-radius: 12px;
+    transition:0.2s;
+
+  }
+  .logoSearch-icon{
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    width: 222px;
+   height: 50.92px;
+   transition:0.2s;
+
+  }
+  .logoSearch-icon.active{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 12px;
+    top: 15px;
+    transition:0.2s;
+    
   }
 
   
@@ -122,8 +177,9 @@ top: 321px;
   height: 60px;
   left: -1px;
   top: 708px;
-  transition: 1s;
+
   background: #8ED7C6;
+  transition:0.2s;
   
   
   }
@@ -134,22 +190,172 @@ width: 251px;
 height: 60px;
 left: -1px;
 top: 708px;
-transition: 1s;
+transition: 0.2s;
 background: #8ED7C6;
+transition:0.2s;
   }
 
 .out{
+  position: absolute;
   transform: matrix(1, 0, 0, 1, 50, 20);
-  transition: 1s;
+  transition:0.2s;
+  left: -30px;
+  top: 710px;
+
 
   }
 
 .out.active {
+  position: absolute;
   width: 24px;
   height: 24px;
-  left: 236px;
-  top: 726px;
+  left: -5px;
+  top: 705px;
+  transition:0.2s;
   transform: matrix(1, 0, 0, 1, 220, 20);
-  transition: 1s;
+  
+  
 
   }
+  p0 {
+    display:none;
+    position: absolute;
+    
+   color: #084236;
+   left: -23px;
+   top: 0px;
+   ;
+   align-items: center;
+text-transform: capitalize;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+  
+  }
+
+  p {
+    display:none;
+    position: absolute;
+    transition: 1s;
+   color: #084236;
+   left: 40px;
+   top: 1px;
+   
+   align-items: center;
+text-transform: capitalize;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+  
+  }
+  p1 {
+    display:none;
+    position: absolute;
+    
+   color: #084236;
+   left: 40px;
+   top: 0px;
+
+   align-items: center;
+text-transform: capitalize;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px; }
+p2 {
+    display:none;
+    position: absolute;
+    
+   color: #084236;
+   left: 40px;
+   top: 0px;
+   ;
+   align-items: center;
+text-transform: capitalize;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+  
+}
+p3 {
+display:none;
+position: absolute;
+color: #084236;
+left: 40px;
+top: 0px;
+align-items: center;
+text-transform: capitalize;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+}
+p4{
+display:none;
+position: absolute;
+color: #084236;
+ left: 40px;
+top: 0px;
+align-items: center;
+text-transform: capitalize;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+}
+p5{
+  display:none;
+  position: absolute;
+  color: #084236;
+   left: 40px;
+  top: 0px;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  }
+
+p6{
+  position: absolute;
+  display:none;
+  left:90px;
+  top: 10px;
+
+}
+p7{
+  position: absolute;
+  display:none;
+  left:90px;
+  top: 30px;
+
+}
+img{
+  display:none;
+  background: url(.png);
+  border-radius: 12px;
+  position: absolute;
+width: 60px;
+height: 50px;
+left:5px;
+top: 5px;
+  
+  
+
+
+}
