@@ -31,6 +31,7 @@ background: #18C29C;
     left: 0px;
     top: 708px;
     background: #8ED7C6;
+    transition: 1s;
 
 
   }
@@ -42,6 +43,7 @@ background: #18C29C;
  top: 708px;
  background: #8ED7C6;
  transition: 1s;
+ 
   }
 
   #menu-icon {
@@ -57,10 +59,11 @@ background: #18C29C;
 
   #search-icon {
     padding: 10px;
-    background: #DCE4E3;
+    background: #8ED7C6;
     border-radius: 12px;
     margin-right: 20px;
     margin-top: 50px;
+   
     left: 27px;
   }
 
@@ -112,15 +115,41 @@ top: 321px;
   left: 27px;
   top: 379px; 
 
-}  
-
-#log-out{
-position: absolute;
-width: 24px;
-height: 24px;
-left: 51px;
-top: 726px;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-
 }
+.outt{
+  position: absolute;
+  width: 79px;
+  height: 60px;
+  left: -1px;
+  top: 708px;
+  transition: 1s;
+  background: #8ED7C6;
+  
+  
+  }
+  
+  .outt.active {
+    position: absolute;
+width: 251px;
+height: 60px;
+left: -1px;
+top: 708px;
+transition: 1s;
+background: #8ED7C6;
+  }
+
+.out{
+  transform: matrix(1, 0, 0, 1, 50, 20);
+  transition: 1s;
+
+  }
+
+.out.active {
+  width: 24px;
+  height: 24px;
+  left: 236px;
+  top: 726px;
+  transform: matrix(1, 0, 0, 1, 220, 20);
+  transition: 1s;
+
+  }
