@@ -1,5 +1,17 @@
+const elements = [
+  { id: 'logomenu-icon', text: 'p0', display: 'block' },
+  { id: 'search-icon', text: '.search-icon p', display: 'block' },
+  { id: 'git-icon', text: '#git-icon p1', display: 'block' },
+  { id: 'pet-icon', text: '#pet-icon p2', display: 'block' },
+  { id: 'user-icon', text: '#user-icon p3', display: 'block' },
+  { id: 'vet-icon', text: '#vet-icon p4', display: 'block' },
+  { id: 'settings-icon', text: '#settings-icon p5', display: 'block' },
+  { id: 'outDown', text: '#outDown p6', display: 'block' },
+  { id: 'outDown', text: '#outDown p7', display: 'block' },
+  { id: 'outDown', text: '#outDown img', display: 'block' }
+];
+
 const button = document.getElementById('logomenu-icon');
-const searchIcon = document.getElementById('search-icon');
 const sidebar = document.querySelector('.transition');
 const dashboard = document.querySelector(".tela");
 const outtBar =  document.querySelector('.outt');
@@ -17,25 +29,8 @@ button.addEventListener('click', () => {
   Searchicon.classList.toggle('active');
   menuIcon.classList.toggle('active');
  
-  const text0 = document.querySelector('#logomenu-icon p0');
-  text0.style.display = text0.style.display === 'block' ? 'none' : 'block';
-
-  const text = document.querySelector('.search-icon p');
-  text.style.display = text.style.display === 'block' ? 'none' : 'block';
-  const text1 = document.querySelector('#git-icon p1');
-  text1.style.display = text1.style.display === 'block' ? 'none' : 'block';
-  const text2 = document.querySelector('#pet-icon p2');
-  text2.style.display = text2.style.display === 'block' ? 'none' : 'block';
-  const text3 = document.querySelector('#user-icon p3');
-  text3.style.display = text3.style.display === 'block' ? 'none' : 'block';
-  const text4 = document.querySelector('#vet-icon p4');
-  text4.style.display = text4.style.display === 'block' ? 'none' : 'block';
-  const text5 = document.querySelector('#settings-icon p5');
-  text5.style.display = text5.style.display === 'block' ? 'none' : 'block';
-  const text6 = document.querySelector('#outDown p6');
-  text6.style.display = text6.style.display === 'block' ? 'none' : 'block';
-  const text7 = document.querySelector('#outDown p7');
-  text7.style.display = text7.style.display === 'block' ? 'none' : 'block';
-  const text8 = document.querySelector('#outDown img');
-  text8.style.display = text8.style.display === 'block' ? 'none' : 'block';
+  elements.forEach(element => {
+    const text = document.querySelector(element.text);
+    text.style.display = text.style.display === element.display ? 'none' : element.display;
+  });
 });
