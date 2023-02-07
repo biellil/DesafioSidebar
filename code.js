@@ -1,11 +1,12 @@
-const button = document.getElementById('menu-icon');
+const button = document.getElementById('logomenu-icon');
 const searchIcon = document.getElementById('search-icon');
 const sidebar = document.querySelector('.transition');
 const dashboard = document.querySelector(".tela");
 const outtBar =  document.querySelector('.outt');
 const outBar =  document.querySelector('.out');
 const logoSearch =  document.querySelector('.logoSearch-icon');
-const Searchicon =  document.querySelector('.search-icon')
+const Searchicon =  document.querySelector('.search-icon');
+const menuIcon = document.querySelector('.menuIcon');
 
 button.addEventListener('click', () => {
   sidebar.classList.toggle('active');
@@ -14,8 +15,9 @@ button.addEventListener('click', () => {
   outBar.classList.toggle('active');
   logoSearch.classList.toggle('active');
   Searchicon.classList.toggle('active');
+  menuIcon.classList.toggle('active');
  
-  const text0 = document.querySelector('#menu-icon p0');
+  const text0 = document.querySelector('#logomenu-icon p0');
   text0.style.display = text0.style.display === 'block' ? 'none' : 'block';
 
   const text = document.querySelector('.search-icon p');
@@ -36,7 +38,4 @@ button.addEventListener('click', () => {
   text7.style.display = text7.style.display === 'block' ? 'none' : 'block';
   const text8 = document.querySelector('#outDown img');
   text8.style.display = text8.style.display === 'block' ? 'none' : 'block';
-
-
 });
-
