@@ -1,3 +1,17 @@
+#Dashboard{
+   
+width: 141px;
+height: 38px;
+left: 268px;
+top: 18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+color: #084236;
+
+}
 .transition {
   position: absolute;
 width: 78px;
